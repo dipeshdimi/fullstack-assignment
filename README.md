@@ -1,4 +1,6 @@
 # Help Center API Assignment
+![HelpCenter-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/2525d0ae-fdfc-45e6-8e9b-6982627434d2)
+
 
 ## Instructions
 
