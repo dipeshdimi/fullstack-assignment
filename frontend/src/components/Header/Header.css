@@ -1,0 +1,49 @@
+.header {
+  background-color: #1a1a1a;
+  padding: 1.5% 4%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo-div {
+  color: white;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  gap: 5%;
+  text-wrap: nowrap;
+}
+
+.logo-img {
+  height: 25px;
+  border-radius: 50%;
+}
+
+.logo-div div span {
+  color: rgb(229, 229, 229);
+}
+
+.submit-request-button {
+  font-size: 1rem;
+  background-color: #282828;
+  color: rgb(229, 229, 229);
+  border: 1px solid #c3c4c5;
+  padding: 0.5% 1%;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.submit-request-button:hover {
+  background-color: rgb(229, 229, 229);
+  color: #282828;
+  font-weight: bold;
+}

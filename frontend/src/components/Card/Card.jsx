@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import './Card.css';
 
 const Card = ({ title, description }) => {
@@ -7,6 +8,11 @@ const Card = ({ title, description }) => {
       <p>{description}</p>
     </div>
   );
+};
+
+Card.propTypes = {
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
 };
 
 export default Card;

@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import './SearchBar.css';
 
 const SearchBar = ({ searchTerm, setSearchTerm }) => {
@@ -11,10 +12,15 @@ const SearchBar = ({ searchTerm, setSearchTerm }) => {
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
         />
-        <button>→</button>
+        <button>&#8594;</button>
       </div>
     </div>
   );
+};
+
+SearchBar.propTypes = {
+  searchTerm: PropTypes.string.isRequired,
+  setSearchTerm: PropTypes.func.isRequired,
 };
 
 export default SearchBar;

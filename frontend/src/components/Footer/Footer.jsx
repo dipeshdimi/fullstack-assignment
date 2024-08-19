@@ -28,11 +28,17 @@ const Footer = () => {
           <p>About Us</p>
           <p>Careers</p>
           <p>Legal</p>
-          <p>Contact Us</p>
+          
+          <div className="footer-section subfooter">
+            <h4>Contact Us</h4>
+            <p>info@abstract.com</p>
+          </div>
         </div>
-        <div className="footer-section footer-contact">
-          <p>info@abstract.com</p>
-          <p>&copy; Copyright 2022 Abstract Studio Design, Inc.</p>
+        <div className="footer-section footer-copyright">
+          <img src="/logo.jpg" alt="Logo" className="logo-img" />
+          <p>&copy; Copyright 2022</p>
+          <p>Abstract Studio Design, Inc.</p>
+          <p>All rights reserved</p>
         </div>
       </div>
     </footer>

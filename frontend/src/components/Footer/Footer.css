@@ -24,7 +24,10 @@
   color: #c3c4c5;
 }
 
-.footer-contact {
-  text-align: right;
-  width: 100%;
+.subfooter {
+  margin: 40px 0;
+}
+
+.footer-copyright {
+  align-self: flex-end;
 }
